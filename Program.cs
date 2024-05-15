@@ -25,8 +25,12 @@ Console.WriteLine($"You strike the monster with your sword. It has {currentMonst
 
 Console.Beep(400, 1000);
 
+// If the monster's HP and AP are both 0 then it is dead
+
 if (currentMonsterHealthPoint <= 0 && currentMonsterArmorPoint <= 0)
     Console.WriteLine("The monster is dead! Good job!");
+
+// Otherwise the user can try again until the monster is dead
 
 else
     Console.WriteLine("The monster isn't dead yet! Try again!");
