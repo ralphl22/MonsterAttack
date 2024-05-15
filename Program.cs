@@ -30,7 +30,7 @@ Console.Beep(400, 1000);
 if (currentMonsterHealthPoint <= 0 && currentMonsterArmorPoint <= 0)
     Console.WriteLine("The monster is dead! Good job!");
 
-// Otherwise the user can try again until the monster is dead
+// Otherwise the user can try again until the monster is dead. Requires program to be rerurn. 
 
 else
     Console.WriteLine("The monster isn't dead yet! Try again!");
