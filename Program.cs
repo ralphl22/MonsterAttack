@@ -48,5 +48,3 @@ if (currentMonsterHealthPoint <= 0 && currentMonsterArmorPoint <= 0)
 
 else
     Console.WriteLine("The monster isn't dead yet! Try again!");
-
-
